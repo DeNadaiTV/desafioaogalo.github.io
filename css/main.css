@@ -4,10 +4,10 @@
 [ FONT ]*/
 
 
-@font-face {
+/* @font-face {
   font-family: OpenSans-Regular;
   src: url('../fonts/OpenSans/OpenSans-Regular.ttf'); 
-}
+} */
 
 
 
@@ -144,7 +144,7 @@ table td, table th {
 }
 table thead tr {
   height: 60px;
-  background: #36304a;
+  background: #dc3545!important;
 }
 table tbody tr {
   height: 50px;
@@ -167,7 +167,7 @@ table td.r, table th.r {
 
 
 .table100-head th{
-  font-family: OpenSans-Regular;
+  /* font-family: OpenSans-Regular; */
   font-size: 18px;
   color: #fff;
   line-height: 1.2;
@@ -179,7 +179,7 @@ tbody tr:nth-child(even) {
 }
 
 tbody tr {
-  font-family: OpenSans-Regular;
+  /* font-family: OpenSans-Regular; */
   font-size: 15px;
   color: #808080;
   line-height: 1.2;
@@ -193,7 +193,7 @@ tbody tr:hover {
 }
 
 .column1 {
-  width: 50px; !important
+  width: 50px !important;
   /* padding-left: 40px; */
 }
 
@@ -242,7 +242,7 @@ tbody tr:hover {
     margin-bottom: 0;
   }
   table tbody tr td:before {
-    font-family: OpenSans-Regular;
+    /* font-family: OpenSans-Regular; */
     font-size: 14px;
     color: #999999;
     line-height: 1.2;
@@ -253,22 +253,19 @@ tbody tr:hover {
     top: 0;
   }
   table tbody tr td:nth-child(1):before {
-    content: "Date";
+    content: "Posição";
   }
   table tbody tr td:nth-child(2):before {
-    content: "Order ID";
+    content: "Time";
   }
   table tbody tr td:nth-child(3):before {
-    content: "Name";
+    content: "Jogos";
   }
   table tbody tr td:nth-child(4):before {
-    content: "Price";
+    content: "Vitórias";
   }
   table tbody tr td:nth-child(5):before {
-    content: "Quantity";
-  }
-  table tbody tr td:nth-child(6):before {
-    content: "Total";
+    content: "Saldo de Gol";
   }
 
   .column4,
